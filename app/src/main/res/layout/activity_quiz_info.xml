@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".QuizInfo">
+
+    <TextView
+        android:id="@+id/quizid"
+        android:layout_width="match_parent"
+        android:textSize="30sp"
+        android:layout_height="wrap_content"
+        android:text="quizid" />
+
+    <TextView
+        android:id="@+id/qtype"
+        android:layout_width="match_parent"
+        android:textSize="30sp"
+        android:layout_height="wrap_content"
+        android:text="qtype" />
+
+    <TextView
+        android:id="@+id/marks"
+        android:layout_width="match_parent"
+        android:textSize="30sp"
+        android:layout_height="wrap_content"
+        android:text="marks" />
+
+    <TextView
+        android:id="@+id/starttime"
+        android:layout_width="match_parent"
+        android:textSize="30sp"
+        android:layout_height="wrap_content"
+        android:text="starttime" />
+
+    <TextView
+        android:id="@+id/endtime"
+        android:layout_width="match_parent"
+        android:textSize="30sp"
+        android:layout_height="wrap_content"
+        android:text="endtime" />
+
+    <TextView
+        android:id="@+id/qdate"
+        android:layout_width="match_parent"
+        android:textSize="30sp"
+        android:layout_height="wrap_content"
+        android:text="qdate" />
+</LinearLayout>
